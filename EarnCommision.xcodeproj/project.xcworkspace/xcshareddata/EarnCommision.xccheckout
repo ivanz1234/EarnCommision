@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D544A8B4-D8D6-43B9-A0CF-E67D700D9A7A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EarnCommision</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C46F98593399C0B84C544C4712EFE4028E50BFA0</key>
+		<string>https://github.com/ivanz1234/EarnCommision.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EarnCommision.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C46F98593399C0B84C544C4712EFE4028E50BFA0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ivanz1234/EarnCommision.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C46F98593399C0B84C544C4712EFE4028E50BFA0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C46F98593399C0B84C544C4712EFE4028E50BFA0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EarnCommision</string>
+		</dict>
+	</array>
+</dict>
+</plist>

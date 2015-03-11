@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeViewController.h"
+#import "LeftViewController.h"
+#import "IIViewDeckController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LeftViewController* leftController = [[LeftViewController alloc]init];
+    HomeViewController * centerController = [[HomeViewController alloc]initWithNibName:nil bundle:nil];
+    UINavigationController * navController = [[UINavigationController alloc]initWithRootViewController:centerController];
+    
+    IIViewDeckController * deckController =  [[IIViewDeckController alloc] initWithCenterViewController:navController
+                                                                                     leftViewController:leftController
+                                                                                    rightViewController:nil];
+    deckController.rightSize = 100;
+    deckController.navigationControllerBehavior = IIViewDeckNavigationControllerIntegrated;
+    deckController.centerhiddenInteractivity = IIViewDeckCenterHiddenNotUserInteractiveWithTapToClose;
+    [deckController disablePanOverViewsOfClass:NSClassFromString(@"_UITableViewHeaderFooterContentView")];
+    
+    self.window.rootViewController = deckController;
+    [self.window makeKeyAndVisible];
+
+    
     return YES;
 }
 
